@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: 23D-Spring-Server-MSA
