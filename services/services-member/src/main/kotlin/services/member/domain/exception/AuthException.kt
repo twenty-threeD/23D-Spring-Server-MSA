@@ -1,0 +1,6 @@
+package services.member.domain.exception
+
+import core.common.exception.ApplicationException
+
+class UnknownRegistrationId: ApplicationException(AuthExceptionCode.UNKNOWN_REGISTRATION_ID)
+class CannotVerifyIntegrity: ApplicationException(AuthExceptionCode.CANNOT_VERIFY_INTEGRITY)
