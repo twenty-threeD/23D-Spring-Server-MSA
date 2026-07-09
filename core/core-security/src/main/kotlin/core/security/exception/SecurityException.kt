@@ -1,0 +1,5 @@
+package core.security.exception
+
+import core.common.exception.ApplicationException
+
+class InvalidAuthentication: ApplicationException(SecurityExceptionCode.INVALID_AUTHENTICATION)
